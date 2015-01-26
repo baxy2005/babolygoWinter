@@ -22,7 +22,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-andris
   </head>
   <body id="bemutatkozunk">
   <?php include "php/header.php"; ?>
