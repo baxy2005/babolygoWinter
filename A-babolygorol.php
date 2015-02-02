@@ -71,12 +71,10 @@ ahol szabadon, örömmel, szeretetben lehetünk együtt, teret kapunk ahhoz, hog
         <img class="img-responsive center-block" src="images/blanka@2x.png" width="153" height="152" alt=""/>
     <h1><strong>Kiss Blanka vagyok,</strong><br />
       a Mezőlakó csoport felelőse</h1>
-<!-- <p>A Babolygó megszületésével régóta dédelgetett álmom válik valóra. Itt termékennyé válhat a tehetségem egy olyan hivatásban, ami örömet szerez nekem is. 1985-ben születtem, érettségi és diploma után négy évig dolgoztam magánóvodában, 
-2011-ben született Panni lányom. <br />
+ <p>2011-ben szereztem óvodapedagógusi diplomát az ELTE-n, családi napköziben kezdem dolgozni, mellette pedig tudásom elmélyítésére elvégeztem a Neveléstudományi mesterszak Koragyermekkor pedagógiája szakirányt az ELTE PPK-n. Ekkor erősödött meg bennem a szakmai elhatározás, hogy minden gyereket megillet a személyre szabott figyelem és elfogadás, aminek munkám során mindenképp eleget akarok tenni. <br />
       <br />
-      <strong>Szerintem jó óvoda az, </strong><br />
-      ahol szabadon, örömmel, szeretetben lehetünk együtt, teret kapunk ahhoz, hogy önmagunkká váljunk - felnőttek és gyerekek egyaránt. Legfontosabb feladatom, hogy hiteles, követésre méltó mintává váljak a gyerekek számára. Felelősen és tudatosan képviseljem a nyitottságot, elfogadást, ehhez pedig biztonságos, inspiráló, a gyerekek életkori sajátosságaihoz igazodó, <br />
-mégis életszerű környezetet teremtsek.</p>   -->
+      <strong>Mindennapjaimat átszövi a népzene, néptánc, </strong><br />
+       hiszen népi örökségünk minden emberi pillanatra tartogat nekünk valamit: irányt mutat, vigasztal, tanít. Ugyanez igaz a gyermekfolkórra is, ami ölbeli játékokon, mondókákon, dalokon vagy akár ügyességi játékokon keresztül segíti a kicsiket és nagyobbakat. Hiszek benne, hogy ez a sok generáción át ránk hagyományozott kincs napjainkban is ugyanígy hat. Ezért csoportomban a nyugodt és biztonságot adó környezet megteremtése mellett igyekszem minél változatosabb népijátékokat kínálni a gyerekeknek, hogy képességeik kibontakozását segítsem.</p> 
  </div>
 
 </div>
