@@ -3,22 +3,22 @@
 
 $redColor: #C42426;
 $paleYellow: #F2DDC7;
-$lightBlue: #8EC1E5;
-$darkGray: #56504F;
-$middleYellow: #CD9137;
-$button: #704F47;
+$lightBlue: #D2EEFC;
+$darkGray: #A91F68;
+$middleYellow: #A91F68;
+$button: #392665;
 
 
 @mixin topNav {
-		 -webkit-box-shadow: 0px 4px 0px darken( $middleYellow, 15% ); /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
-          box-shadow: 0px 4px 0px darken( $middleYellow, 15% ); /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+		 -webkit-box-shadow: 0px 4px 0px darken( $middleYellow, 10% ); /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+          box-shadow: 0px 4px 0px darken( $middleYellow, 10% ); /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 		  border-radius: 12px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
   /* useful if you don't want a bg color from leaking outside the border: */
   background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
 }
 @mixin button {
-		 -webkit-box-shadow: 0px 4px 0px darken( $button, 15% ); /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
-          box-shadow: 0px 4px 0px darken( $button, 15% ); /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+		 -webkit-box-shadow: 0px 4px 0px darken( $button, 10% ); /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+          box-shadow: 0px 4px 0px darken( $button, 10% ); /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 		  border-radius: 12px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
   /* useful if you don't want a bg color from leaking outside the border: */
   background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
@@ -80,7 +80,7 @@ body {
 }
 
 .redBg{
-	background-color: $button;
+	background-color: $middleYellow;
 	margin: 0 0px;
 	padding: 20px;
 
@@ -191,7 +191,7 @@ background-color:#FFF;
 	padding-top: 9px;
 	padding-bottom: 6px;
 	font-size: 16px;
-	color: lighten( $middleYellow, 25% ) !important;
+	color: lighten( $middleYellow, 35% ) !important;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
 	color: #FFF !important;
@@ -291,7 +291,7 @@ margin-top: 20px;
 }
 label, .MoreAnswer {
 	font-size: 13px;
-	color: lighten( $button, 25% );
+	color: lighten( $middleYellow, 25% );
 	font-weight: normal;
 }
 textarea.form-control {
@@ -301,7 +301,7 @@ textarea.form-control {
 }
 .survey {
 	padding: 12px 12px 12px 15px;
-	background-color: lighten( $button, 25% );
+	background-color: lighten( $middleYellow, 25% );
 	margin-bottom: 5px;
 	margin-right: 5px;
 	border-top-left-radius: 10px;
@@ -312,7 +312,7 @@ float:left;
 width: 48%;
 }
 .survey label {
-color: $button;
+color: $middleYellow;
 }
 .MoreAnswer {
 padding-left: 0px!important;
