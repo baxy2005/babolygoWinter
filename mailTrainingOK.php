@@ -84,6 +84,7 @@ margin-top: 10px;
     <div class="row whiteBg">
      <div class="row redBg">
          <h1 class="hidden-xs">Jelentkezés Babolygó Óvoda 2014</h1>
+                   <h2 class="hidden-xs text-center">A kitöltést követően felvesszük veled a kapcsolatot telefonon vagy e-mailen, amely során bővebb tájékoztatást tudunk nyújtani, illetve egyeztetni tudunk személyes látogatással kapcsolatban.</h2>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <h2>Személyes adataim</h2>
     <form action="http://www.babolygo.com/mailTrainingOK.php" method="post" role="form">
