@@ -5,8 +5,8 @@ $redColor: #C42426;
 $paleYellow: #F2DDC7;
 $lightBlue: #D2EEFC;
 $darkGray: #A91F68;
-$middleYellow: #A91F68;
-$button: #392665;
+$middleYellow: #C42426;
+$button: #8E450A;
 $navActive: #891954;
 
 
@@ -65,8 +65,8 @@ $navActive: #891954;
   font-weight:  400;
 }
 body {
-	background-color: $lightBlue;
-	color: $darkGray;
+	background-color: $paleYellow;
+	color: $redColor;
 	font-family: 'Proxima Nova Rg';
 /*	background-image: url(../images/babolygo-winterSnowBg-01.svg);					background-repeat: repeat;
 	background-size: 435px 305px;*/
@@ -109,7 +109,7 @@ body {
 	background-color: $middleYellow;
 	padding: 10px 5px;
 	border-radius: 16px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .redBgNewsletter .openingBtn {
@@ -154,7 +154,7 @@ h1 {
 {
 	color: #FFF !important;
 	font-size: 16px;
-	background-color: $lightBlue;
+	background-color: $paleYellow;
 	width: 95%;
 	margin: 0 auto;
 	padding: 4px 0;
@@ -196,7 +196,7 @@ background-color:#FFF;
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	border-width: 1px;
 	border-color: #FFF; 
-	color: $darkGray;
+	color: $redColor;
 }
 .nav-tabs {
     border-bottom: none;
@@ -241,20 +241,14 @@ background-color:#FFF;
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	color: #FFF!important;
 	background-color: transparent!important;
-/* Firefox v3.6+ */
-background-image:-moz-linear-gradient(52% 0% -90deg,rgb(137,25,84) 0%,rgba(137,28,84,0) 100%); 
-/* safari v4.0+ and by Chrome v3.0+ */
-background-image:-webkit-gradient(linear,52% 0%,52% 110%,color-stop(0, rgb(137,25,84)),color-stop(1, rgba(137,25,84,0)));
-/* Chrome v10.0+ and by safari nightly build*/
-background-image:-webkit-linear-gradient(-90deg,rgb(137,25,84) 0%,rgba(137,25,84,0) 100%);
-/* Opera v11.10+ */
-background-image:-o-linear-gradient(-90deg,rgb(137,25,84) 0%,rgba(137,25,84,0) 100%);
-/* IE v10+ */
-background-image:-ms-linear-gradient(-90deg,rgb(137,25,84) 0%,rgba(137,25,84,0) 100%);
-background-image:linear-gradient(180deg,rgb(137,25,84) 0%,rgba(137,25,84,0) 100%);
--ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa57522,endColorstr=#0a57522,GradientType=0)";
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa57522,endColorstr=#0a57522,GradientType=0);}
-
+	background: -moz-linear-gradient(top,  rgba(153,13,0,1) 0%, rgba(153,13,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,13,0,1)), color-stop(100%,rgba(153,13,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(153,13,0,1) 0%,rgba(153,13,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(153,13,0,1) 0%,rgba(153,13,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(153,13,0,1) 0%,rgba(153,13,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(153,13,0,1) 0%,rgba(153,13,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990d00', endColorstr='#00990d00',GradientType=0 ); /* IE6-9 */
+}
 .navbar-nav.jelentkezes {
 	margin-top: 17px;
 	margin-left: 25px;
@@ -295,7 +289,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa57522,endCol
 .titleCenter {
 width: 291px;
 padding: 25px 0 55px 10px;
-background-image: url(../images/cloud.png);
+background-image: url(../images/cloud-fall.png);
 background-repeat: no-repeat;
 background-position: center 0px;
 margin-left:auto;
@@ -304,7 +298,7 @@ margin-top: 20px;
 }
 .titleCenter h1 {
     font-size: 32px;
-    color: $darkGray;
+    color: $redColor;
     text-align: center;
     font-weight: normal;
     line-height: 100%;
@@ -419,14 +413,14 @@ background-color:  transparent;
 }
 
 .valami .facebookFront a{
-background-image: url(../images/babolygo-socialOpeningFacebook.svg);					
+background-image: url(../images/babolygo-socialOpeningFacebook-fall.svg);					
 }
 .valami .googleFront a{
-background-image: url(../images/babolygo-socialOpeningGooglePlus.svg);					
+background-image: url(../images/babolygo-socialOpeningGooglePlus-fall.svg);					
 
 }
 .valami .youtubeFront a{
-background-image: url(../images/babolygo-socialOpeningYouTube.svg);					
+background-image: url(../images/babolygo-socialOpeningYouTube-fall.svg);					
 }
 
 .smallSocial ul  {
@@ -438,7 +432,7 @@ background-image: url(../images/babolygo-socialOpeningYouTube.svg);
 .footer {
 	margin-top: 30px;
 	margin-bottom: 20px;	
-	background-image: url(../images/babolygo-footerBirdsBg-01.svg);
+	background-image: url(../images/babolygo-footerBirdsBg-fall.svg);
 	background-repeat: no-repeat;
 	background-position: center 100px;
 	background-size: 380px 63px;
@@ -455,7 +449,7 @@ background-image: url(../images/babolygo-socialOpeningYouTube.svg);
 	margin-bottom: 15px;
 }
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-    background-color: $lightBlue;
+    background-color: $paleYellow;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	border-top: none;
@@ -640,6 +634,12 @@ textarea.form-control {
 .smallSocial {
 	width: 94%;	
 }
+
+.oH {
+	font-size: 26px;
+	margin-top: 15px;
+	
+}
 .btn {
 	width: 100% !important;
 }
@@ -689,7 +689,7 @@ margin-top: 15px;
 
 }
 .navbar-nav > li > a {
-	color:  lighten( $middleYellow, 25% ) !important;
+	color:  $paleYellow !important;
 	padding-left: 15px !important;
 	border-radius: 15px;
 	background-clip: padding-box;
